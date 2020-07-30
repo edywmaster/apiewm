@@ -3,7 +3,7 @@
     "description": "API EWM Eventos",
     "type": "project",
     "license": "proprietary",
-    "minimum-stability": "stable",
+    "minimum-stability": "beta",
     "authors": [
         {
             "name": "Edmar J. Cruz",
