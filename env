@@ -14,13 +14,13 @@
 # ENVIRONMENT
 #--------------------------------------------------------------------
 
-CI_ENVIRONMENT = development
+# CI_ENVIRONMENT = production
 
 #--------------------------------------------------------------------
 # APP
 #--------------------------------------------------------------------
 
-app.baseURL = 'http://localhost/'
+# app.baseURL = ''
 # app.forceGlobalSecureRequests = false
 
 # app.sessionDriver = 'CodeIgniter\Session\Handlers\FileHandler'
@@ -49,12 +49,11 @@ app.baseURL = 'http://localhost/'
 # DATABASE
 #--------------------------------------------------------------------
 
-database.default.hostname = localhost
-database.default.database = ewmevent_sistema
-database.default.username = root
-database.default.password = ''
-database.default.DBDriver = MySQLi
-database.default.DSN = 'mysql:dbname=ewmevent_sistema;host=localhost'
+# database.default.hostname = localhost
+# database.default.database = ci4
+# database.default.username = root
+# database.default.password = root
+# database.default.DBDriver = MySQLi
 
 # database.tests.hostname = localhost
 # database.tests.database = ci4
@@ -88,7 +87,7 @@ database.default.DSN = 'mysql:dbname=ewmevent_sistema;host=localhost'
 # ENCRYPTION
 #--------------------------------------------------------------------
 
-# encryption.key =
+# encryption.key = 
 # encryption.driver = OpenSSL
 
 #--------------------------------------------------------------------
