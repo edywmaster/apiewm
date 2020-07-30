@@ -1,4 +1,3 @@
 # APIewm
-EWM Eventos API
+EWM Eventos API 1.0.1
 
-Inicio do projeto.
