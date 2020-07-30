@@ -1,0 +1,21 @@
+{
+    "name": "edywmaster/apiewm",
+    "description": "API EWM Eventos",
+    "type": "project",
+    "license": "proprietary",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Edmar J. Cruz",
+            "email": "contato@ewmeventos.com",
+            "role": "Developer",
+            "homepage": "https://ewmeventos.com"
+        }
+    ],
+    "config": {
+      "vendor-dir": "vendor"
+    },
+    "require": {
+      "bshaffer/oauth2-server-php": "1.10"
+    }
+}

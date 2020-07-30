@@ -1,0 +1,16 @@
+CRITICAL - 2020-07-30 02:16:08 --> Class 'OAuth2\Storage\Pdo' not found
+#0 C:\xampp\htdocs\apiewm\app\Libraries\Oauth.php(9): App\Libraries\Oauth->init()
+#1 C:\xampp\htdocs\apiewm\app\Controllers\Auth.php(16): App\Libraries\Oauth->__construct()
+#2 C:\xampp\htdocs\apiewm\system\CodeIgniter.php(918): App\Controllers\Auth->index()
+#3 C:\xampp\htdocs\apiewm\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 C:\xampp\htdocs\apiewm\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\apiewm\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-07-30 02:17:13 --> Class 'OAuth2\Storage\Pdo' not found
+#0 C:\xampp\htdocs\apiewm\app\Libraries\Oauth.php(9): App\Libraries\Oauth->init()
+#1 C:\xampp\htdocs\apiewm\app\Controllers\Auth.php(16): App\Libraries\Oauth->__construct()
+#2 C:\xampp\htdocs\apiewm\system\CodeIgniter.php(918): App\Controllers\Auth->index()
+#3 C:\xampp\htdocs\apiewm\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 C:\xampp\htdocs\apiewm\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\apiewm\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
